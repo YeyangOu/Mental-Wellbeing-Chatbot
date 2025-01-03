@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Mental Wellbeing Chatbot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description of this Project
 
-## Available Scripts
+This is a mental health support therapist chatbot me and a team of 2 other UBC students made for a Hackathon Project. 
 
-In the project directory, you can run:
+Below is a link to a video description of our project:
+https://youtu.be/u7g-Rn2KKlw
 
-### `npm start`
+## Inspiration
+In a world where AI is becoming increasingly more integrated in our life, our team got the idea of constructing a wellness support chatbot to make mental health care and emotional well-being services more accessible to everyone, regardless of time, place, or circumstance.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How It Works and How to Try it?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Step 1: Download the github packages from the "Try it out" links". Extract the file and import the file into Vscode or other integrated code development environment.
 
-### `npm test`
+Step 2: Then, you need to install web vitals and the react-script, since the code is written using react script. Click "terminal" on the top left corner, select "new terminal". Next, type the following codes separately into the terminal one by one and press enter.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+"npm i web-vitals --save-dev"
 
-### `npm run build`
+"npm install react-scripts"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Step 3: Start the server. Type:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+"node server" in the terminal to start the server.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Step 4: Start the program:
 
-### `npm run eject`
+Type: "npm start" in the terminal to start the program. This would open up another page with the chatbot and it is ready to use.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Upon opening the the page, you can type a message using your keyboard and send the message with the enter key or the button on the lower right corner of the screen. Then, an AI therapist would respond to your message and request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How We Built It?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+First, we constructed a chat room using a given template codes given online which is written in react, css, html, java, and javascript. Then, we acquired the API of an AI chatbot and implemented the AI into our chat room. The AI is given the instruction to act as a therapist and emotional support consultant who is confident, empathetic, non-judgmental, respectful, observant and accepting. If the user says a greeting, politely greet the user and ask them about how they are feeling.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Challenges Encountered
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+When we implemented the AI's API into the chatroom, we received "Uncaught runtime errors: TypeError: Failed to fetch". This causes us to be stuck on the issues for a long time. Nevertheless, we found out in the end that this is because the role description we had given to our AI is too long which caused problems in the system. We made this description shorter which resolves the issue. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## What We Learned?
+In this project, many of us learned how to use the react coding framework to build a chat room. In addition, we also learned how to install the API of an AI into our code.
 
-### Code Splitting
+## What's Next for Wellness Therapy Chatbot
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For future projects, our team is planning on adding a sign in mechanism for the chatbot so that users can log in with a Google account and start using it. We might also add calming and soothing music which plays when the user logins into and a view of nature in the background. These elements can help the user relax.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
