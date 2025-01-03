@@ -1,5 +1,6 @@
 # Mental Wellbeing Chatbot
 
+
 ## Description of this Project
 
 This is a mental health support therapist chatbot me and a team of 2 other UBC students made for a Hackathon Project. 
