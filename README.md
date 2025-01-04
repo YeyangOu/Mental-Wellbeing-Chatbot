@@ -8,6 +8,9 @@ This is a mental health support therapist chatbot me and a team of 2 other UBC s
 Below is a link to a video description of our project:
 https://youtu.be/u7g-Rn2KKlw
 
+Link to Devpost: https://devpost.com/software/wellness-therapy-chatbot
+
+
 ## Inspiration
 In a world where AI is becoming increasingly more integrated in our life, our team got the idea of constructing a wellness support chatbot to make mental health care and emotional well-being services more accessible to everyone, regardless of time, place, or circumstance.
 
